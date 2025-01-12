@@ -71,16 +71,15 @@ WSGI_APPLICATION = "core.wsgi.application"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "HOST": "localhost",
-        "USER": "root",
-        "PASSWORD": "943370489a",
-        "NAME": "ecomerce",
-        "PORT": "3306",
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',  # Driver para MySQL
+        'NAME': 'railway',                     # Nome do banco
+        'USER': 'root',                        # Usuário
+        'PASSWORD': 'wVHzeNceCqqgkOKxkdENycioxeMIIGfe',  # Senha
+        'HOST': 'autorack.proxy.rlwy.net',     # Host
+        'PORT': '45001',                       # Porta
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
